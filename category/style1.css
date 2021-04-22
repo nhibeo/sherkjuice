@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    color: #333;
+    font-size: 20px;
+}
+body{
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #F5F5DC;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background-color: #F5DEB3;
+    padding: 30px 40px;
+    border-radius: 10px;
+    border:red 1px solid;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.sll label{
+    display: block;
+    max-width: 300px;
+    width: 100%;
+}
+.sll, .button{
+    margin-top: 20px;
+}
+input{
+    border-radius:8px;
+}
+.button input{
+    width: 40%;
+    background-color: #E6E6FA;
+    border-radius: 5px;
+}
+.button input:hover{
+    background-color: #F0E68C;
+}
+li{
+    position: relative;
+    left: 30px;
+}
+.mb{
+    border: double 1px red;
+    padding:10px;
+
+}
+.mb li{
+    color:#FF4500;
+}
+.td{
+    text-align:center;
+    font-size: 40px;
+    font-weight: bold;
+}
+a{
+    border: solid 1px black;
+    background: #fff;
+    position:relative;
+    top: 10px;
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration:none;
+    color:#333;
+    font-weight: bold;
+}
+a:hover{
+    background: #ADD8E6;
+    color:#191970;
+    box-shadow: 5px 5px 10px #333;
+}
+.pro{
+    border: solid 1px black;
+    background: #fff;
+    position:relative;
+    top: 10px;
+    border-radius: 5px;
+    padding: 7px;
+    left: 155px;
+    text-decoration:none;
+    color:#333;
+    font-weight: bold;
+}
+.success{
+    border: double 1px #00CC33;
+    padding:10px;
+    color:#00CC33;
+}
+.aa{
+    border: solid 1px black;
+    background: #fff;
+    position:relative;
+    top: 10px;
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration:none;
+    color:#333;
+    font-weight: bold;
+}
+.aa:hover{
+    background: #ADD8E6;
+    color:#191970;
+    box-shadow: 5px 5px 10px #333;
+}
+.cc a, .aa{
+    margin: 0 60px;
+}
+.del{
+    font-size: 24px;
+    font-weight:bold;
+    text-decoration: underline;
+    color:red;
+}
+.con{
+    margin-left: 90px;
+}
+.sll a {
+    margin-left: 50px;;
+}
+#detail{
+    max-width: 400px;
+    min-width: 400px;
+    width:100%;
+    min-height:100px;
+}
